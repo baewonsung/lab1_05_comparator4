@@ -1,0 +1,5 @@
+{
+  "workbench.editorAssociations": { "*.vcd": "vaporview.waveformViewer" },
+  "vaporview.defaultAutoReload": true,
+  "vaporview.promptLoadSettings": "Never"
+}

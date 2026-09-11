@@ -1,0 +1,39 @@
+$date
+   Fri Sep 11 23:44:49 2026
+$end
+
+$version
+  2026.1
+  $dumpfile ("wave.vcd") 
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module tb_compare_4 $end
+$var reg 4 ! a [3:0] $end
+$var reg 4 " b [3:0] $end
+$var wire 3 # o [2:0] $end
+$var integer 32 $ n [31:0] $end
+$var integer 32 % checked [31:0] $end
+$var reg 3 & expected [2:0] $end
+$scope module dut $end
+$var wire 4 ' a [3:0] $end
+$var wire 4 ( b [3:0] $end
+$var wire 3 # o [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+b0 !
+b0 "
+b0 #
+b0 $
+b0 %
+b10 &
+b0 '
+b0 (
+$end

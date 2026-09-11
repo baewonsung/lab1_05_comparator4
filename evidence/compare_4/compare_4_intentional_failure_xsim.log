@@ -1,0 +1,18 @@
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Fri Sep 11 23:44:48 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/compare_4_sim/xsim_script.tcl
+# xsim {compare_4_sim} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+Fatal: LAB1_FAIL compare_4 case=0 a=0 b=0 expected=010 actual=000
+Time: 10 ns  Iteration: 0  Process: /tb_compare_4/Initial15_0  Scope: tb_compare_4  File: C:/Users/bcw64/Documents/ece2_26_2_2/04.LAB1_0910_PDF/lab1_05_comparator4/sim/tb_compare_4.sv Line: 34
+$finish called at time : 10 ns
+exit
+INFO: [Common 17-206] Exiting xsim at Fri Sep 11 23:44:50 2026...
